@@ -2,27 +2,23 @@
 
 ## Overview
 
-The Hostel Grievance Redressal System is a web application that facilitates the submission, tracking, and resolution of grievances raised by hostel residents. The system provides a user-friendly interface for residents to report issues and for administrators to efficiently manage and resolve them.
+I developed the Hostel Grievance Redressal System as a full-stack web application to streamline the process of reporting, tracking, and resolving hostel-related issues. The platform allows residents to quickly submit grievances, while giving administrators the tools they need to efficiently manage and resolve them.
 
 ## Features
 
-- **User-friendly Interface**: Simple and intuitive design for easy grievance submission by residents.
+- **Clean, Easy-to-Use Interface**: Residents can submit grievances in just a few clicks.
   
-- **Real-time Updates**: Residents receive real-time updates on the status of their submitted grievances.
+- **Real-time Status Tracking**: Users are notified instantly when the status of their complaint changes.
 
-- **Admin Dashboard**: An administrative dashboard to manage and prioritize grievances effectively.
+- **Admin Dashboard**: Centralized dashboard for wardens/admins to view, prioritize, and act on grievances.
 
-## Technology Stack
+## Tech Stack
 
-- **Frontend**: Built with React.js for a responsive and dynamic user interface. Styled using Tailwind CSS for a modern look and feel.
+- **Frontend**: React.js for building a responsive, dynamic UI, styled with Tailwind CSS for a sleek, modern look.
 
-- **Backend**: Powered by Node.js and Express.js for server-side development.
+- **Backend**: Node.js with Express.js for efficient server-side handling of requests.
 
-- **Database**: Utilizes PostgreSQL for reliable and scalable data storage.
-
-## Styling with Tailwind CSS
-
-The application's UI is styled using Tailwind CSS.
+- **Database**: PostgreSQL for reliable, scalable, and structured data storage.
 
 ## Component Library
 
@@ -70,40 +66,10 @@ This project utilizes Component Library Preline, ComponentLand for cards, pages,
   
 ![Entity Relationship Diagram](./images/hostelDatabaseErDiagram.png)
 
-## Getting Started
 
-To run the Hostel Grievance Redressal System locally:
+## Author
 
-1. **Clone the repository:**
-    ```bash
-    git clone [repository_url]
-    ```
-
-2. **Navigate to the project directory:**
-    ```bash
-    cd [project_directory]
-    ```
-
-3. **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-4. **Configure the database:**
-    - Set up PostgreSQL and update the database configuration.
-    - For backend
-      ```bash
-      node server.js
-      ```
-  
-5. **Run the application:**
-    ```bash
-    npm run dev
-    ```
-
-## Contributing
-
-Contributions are welcome! 
+Mohd Kaif 
 
 
 
